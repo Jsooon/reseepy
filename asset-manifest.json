@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/reseepy/static/css/main.f015be92.css",
-    "main.js": "/reseepy/static/js/main.4e206396.js",
+    "main.css": "/reseepy/static/css/main.6bfd9924.css",
+    "main.js": "/reseepy/static/js/main.ee5ccd61.js",
     "index.html": "/reseepy/index.html",
-    "main.f015be92.css.map": "/reseepy/static/css/main.f015be92.css.map",
-    "main.4e206396.js.map": "/reseepy/static/js/main.4e206396.js.map"
+    "main.6bfd9924.css.map": "/reseepy/static/css/main.6bfd9924.css.map",
+    "main.ee5ccd61.js.map": "/reseepy/static/js/main.ee5ccd61.js.map"
   },
   "entrypoints": [
-    "static/css/main.f015be92.css",
-    "static/js/main.4e206396.js"
+    "static/css/main.6bfd9924.css",
+    "static/js/main.ee5ccd61.js"
   ]
 }
