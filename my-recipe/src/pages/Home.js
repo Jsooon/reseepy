@@ -22,7 +22,7 @@ export default function Home({isFavorite, addToFavorite, removeFromFavorites}){
     }, [])
 
     return <div className='main-container'> 
-        <h3>Random meal of the day</h3>
+        <h3 style={{textAlign:'center'}}>Random meal of the day</h3>
         <div class='Meals'> 
         {
             meal && <Meal isFavorite={isFavorite} addToFavorite={addToFavorite} removeFromFavorites={removeFromFavorites} style={{alignSelf:'center'}} info={meal}></Meal>

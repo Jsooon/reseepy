@@ -29,13 +29,15 @@ export default function RecipeDetails(){
     }
 
     return details && <div className='main-container'>
-        <h2>{details.strMeal}</h2>
-        <p style={{fontWeight:'300', fontStyle:'italic'}}>{details.strArea +' ' +details.strCategory}</p>
+        <h2 style={{textAlign:'center'}} className='leftAlignTextOnSmallWidth' >{details.strMeal}</h2>
+        <p style={{fontWeight:'300', fontStyle:'italic', textAlign:'center'}} className='leftAlignTextOnSmallWidth'>{details.strArea +' ' +details.strCategory}</p>
         <br />
         <div style={{display:'flex', justifyContent:'center', marginTop:20, marginBottom:20}}>
             <img style={{width:300,height:300, borderRadius:10}} src={details.strMealThumb} />
         </div>
-        <YouTubeIcon/>
+        <div style={{display:'flex', justifyContent:'center'}}>
+            <a className='urlIcon' textAlign='center' target='_blank' href={details.strYoutube}><YouTubeIcon fontSize='large'/></a>
+        </div>
         <h3 style={{marginTop:20, marginBottom:10}}>Ingredients:</h3>
         <div>
             {

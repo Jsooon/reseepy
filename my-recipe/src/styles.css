@@ -27,6 +27,7 @@
     border-radius: 10px;
     color:black;
     text-decoration: none;
+    user-select: none;
     
 }
 a{
@@ -39,6 +40,7 @@ a{
     position: relative;
 }
 .favoriteButton{
+    cursor: pointer;
     z-index: 100;
     bottom:10px;
     right:10px;
@@ -93,6 +95,7 @@ button[aria-current='true']{
     margin-bottom: 20px;
 }
 .burger{
+    cursor: pointer;
     display: none;
     width:30px;
     height:30px;
@@ -147,7 +150,16 @@ FormControl{
 .linkItem:hover{
     color: #F78104;
 }
+.urlIcon:hover{
+    color:#F78104;
+}
 @media only screen and (max-width: 600px) {
+    .centerTextOnSmallWidth{
+        text-align: center !important;
+    }
+    .leftAlignTextOnSmallWidth{
+        text-align: left !important;
+    }
     .navbar{
         justify-content: center;
     }   
